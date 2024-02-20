@@ -1,0 +1,1712 @@
+fileFormatVersion: 2
+guid: a15626a144b5575459220d456425f637
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: game-tiles_0
+  - first:
+      213: 21300002
+    second: game-tiles_1
+  - first:
+      213: 21300004
+    second: game-tiles_2
+  - first:
+      213: 21300006
+    second: game-tiles_3
+  - first:
+      213: 21300008
+    second: game-tiles_4
+  - first:
+      213: 21300010
+    second: game-tiles_5
+  - first:
+      213: 21300012
+    second: game-tiles_6
+  - first:
+      213: 21300014
+    second: game-tiles_7
+  - first:
+      213: 21300016
+    second: game-tiles_8
+  - first:
+      213: 21300018
+    second: game-tiles_9
+  - first:
+      213: 21300020
+    second: game-tiles_10
+  - first:
+      213: 21300022
+    second: game-tiles_11
+  - first:
+      213: 21300024
+    second: game-tiles_12
+  - first:
+      213: 21300026
+    second: game-tiles_13
+  - first:
+      213: 21300028
+    second: game-tiles_14
+  - first:
+      213: 21300030
+    second: game-tiles_15
+  - first:
+      213: 21300032
+    second: game-tiles_16
+  - first:
+      213: 21300034
+    second: game-tiles_17
+  - first:
+      213: 21300036
+    second: game-tiles_18
+  - first:
+      213: 21300038
+    second: game-tiles_19
+  - first:
+      213: 21300040
+    second: game-tiles_20
+  - first:
+      213: 21300042
+    second: game-tiles_21
+  - first:
+      213: 21300044
+    second: game-tiles_22
+  - first:
+      213: 21300046
+    second: game-tiles_23
+  - first:
+      213: 21300048
+    second: game-tiles_24
+  - first:
+      213: 21300050
+    second: game-tiles_25
+  - first:
+      213: 21300052
+    second: game-tiles_26
+  - first:
+      213: 21300054
+    second: game-tiles_27
+  - first:
+      213: 21300056
+    second: game-tiles_28
+  - first:
+      213: 21300058
+    second: game-tiles_29
+  - first:
+      213: 21300060
+    second: game-tiles_30
+  - first:
+      213: 21300062
+    second: game-tiles_31
+  - first:
+      213: 21300064
+    second: game-tiles_32
+  - first:
+      213: 21300066
+    second: game-tiles_33
+  - first:
+      213: 21300068
+    second: game-tiles_34
+  - first:
+      213: 21300070
+    second: game-tiles_35
+  - first:
+      213: 21300072
+    second: game-tiles_36
+  - first:
+      213: 21300074
+    second: game-tiles_37
+  - first:
+      213: 21300076
+    second: game-tiles_38
+  - first:
+      213: 21300078
+    second: game-tiles_39
+  - first:
+      213: 21300080
+    second: game-tiles_40
+  - first:
+      213: 21300082
+    second: game-tiles_41
+  - first:
+      213: 21300084
+    second: game-tiles_42
+  - first:
+      213: 21300086
+    second: game-tiles_43
+  - first:
+      213: 21300088
+    second: game-tiles_44
+  - first:
+      213: 21300090
+    second: game-tiles_45
+  - first:
+      213: 21300092
+    second: game-tiles_46
+  - first:
+      213: 21300094
+    second: game-tiles_47
+  - first:
+      213: 21300096
+    second: game-tiles_48
+  - first:
+      213: 21300098
+    second: game-tiles_49
+  - first:
+      213: 21300100
+    second: game-tiles_50
+  - first:
+      213: 21300102
+    second: game-tiles_51
+  - first:
+      213: 21300104
+    second: game-tiles_52
+  - first:
+      213: 21300106
+    second: game-tiles_53
+  - first:
+      213: 21300108
+    second: game-tiles_54
+  - first:
+      213: 21300110
+    second: game-tiles_55
+  - first:
+      213: 21300112
+    second: game-tiles_56
+  - first:
+      213: 21300114
+    second: game-tiles_57
+  - first:
+      213: 21300116
+    second: game-tiles_58
+  - first:
+      213: 21300118
+    second: game-tiles_59
+  - first:
+      213: 21300120
+    second: game-tiles_60
+  - first:
+      213: 21300122
+    second: game-tiles_61
+  - first:
+      213: 21300124
+    second: game-tiles_62
+  - first:
+      213: 21300126
+    second: game-tiles_63
+  - first:
+      213: 21300128
+    second: game-tiles_64
+  - first:
+      213: 21300130
+    second: game-tiles_65
+  - first:
+      213: 21300132
+    second: game-tiles_66
+  - first:
+      213: 21300134
+    second: game-tiles_67
+  - first:
+      213: 21300136
+    second: game-tiles_68
+  - first:
+      213: 21300138
+    second: game-tiles_69
+  - first:
+      213: 21300140
+    second: game-tiles_70
+  - first:
+      213: 21300142
+    second: game-tiles_71
+  - first:
+      213: 21300144
+    second: game-tiles_72
+  - first:
+      213: 21300146
+    second: game-tiles_73
+  - first:
+      213: 21300148
+    second: game-tiles_74
+  - first:
+      213: 21300150
+    second: game-tiles_75
+  - first:
+      213: 21300152
+    second: game-tiles_76
+  - first:
+      213: 21300154
+    second: game-tiles_77
+  - first:
+      213: 21300156
+    second: game-tiles_78
+  - first:
+      213: 21300158
+    second: game-tiles_79
+  - first:
+      213: 21300160
+    second: game-tiles_80
+  - first:
+      213: 21300162
+    second: game-tiles_81
+  - first:
+      213: 21300164
+    second: game-tiles_82
+  - first:
+      213: 21300166
+    second: game-tiles_83
+  - first:
+      213: 21300168
+    second: game-tiles_84
+  - first:
+      213: 21300170
+    second: game-tiles_85
+  - first:
+      213: 21300172
+    second: game-tiles_86
+  - first:
+      213: 21300174
+    second: game-tiles_87
+  - first:
+      213: 21300176
+    second: game-tiles_88
+  - first:
+      213: 21300178
+    second: game-tiles_89
+  - first:
+      213: 21300180
+    second: game-tiles_90
+  - first:
+      213: 21300182
+    second: game-tiles_91
+  - first:
+      213: 21300184
+    second: game-tiles_92
+  - first:
+      213: 21300186
+    second: game-tiles_93
+  - first:
+      213: 21300188
+    second: game-tiles_94
+  - first:
+      213: 21300190
+    second: game-tiles_95
+  - first:
+      213: 21300192
+    second: game-tiles_96
+  - first:
+      213: 21300194
+    second: game-tiles_97
+  - first:
+      213: 21300196
+    second: game-tiles_98
+  - first:
+      213: 21300198
+    second: game-tiles_99
+  - first:
+      213: 21300200
+    second: game-tiles_100
+  - first:
+      213: 21300202
+    second: game-tiles_101
+  - first:
+      213: 21300204
+    second: game-tiles_102
+  - first:
+      213: 21300206
+    second: game-tiles_103
+  - first:
+      213: 21300208
+    second: game-tiles_104
+  - first:
+      213: 21300210
+    second: game-tiles_105
+  - first:
+      213: 21300212
+    second: game-tiles_106
+  - first:
+      213: 21300214
+    second: game-tiles_107
+  - first:
+      213: 21300216
+    second: game-tiles_108
+  - first:
+      213: 21300218
+    second: game-tiles_109
+  - first:
+      213: 21300220
+    second: game-tiles_110
+  - first:
+      213: 21300222
+    second: game-tiles_111
+  - first:
+      213: 21300224
+    second: game-tiles_112
+  - first:
+      213: 21300226
+    second: game-tiles_113
+  - first:
+      213: 21300228
+    second: game-tiles_114
+  - first:
+      213: 21300230
+    second: game-tiles_115
+  - first:
+      213: 21300232
+    second: game-tiles_116
+  - first:
+      213: 21300234
+    second: game-tiles_117
+  - first:
+      213: 21300236
+    second: game-tiles_118
+  - first:
+      213: 21300238
+    second: game-tiles_119
+  - first:
+      213: 21300240
+    second: game-tiles_120
+  - first:
+      213: 21300242
+    second: game-tiles_121
+  - first:
+      213: 21300244
+    second: game-tiles_122
+  - first:
+      213: 21300246
+    second: game-tiles_123
+  - first:
+      213: 21300248
+    second: game-tiles_124
+  - first:
+      213: 21300250
+    second: game-tiles_125
+  - first:
+      213: 21300252
+    second: game-tiles_126
+  - first:
+      213: 21300254
+    second: game-tiles_127
+  - first:
+      213: 21300256
+    second: game-tiles_128
+  - first:
+      213: 21300258
+    second: game-tiles_129
+  - first:
+      213: 21300260
+    second: game-tiles_130
+  - first:
+      213: 21300262
+    second: game-tiles_131
+  - first:
+      213: 21300264
+    second: game-tiles_132
+  - first:
+      213: 21300266
+    second: game-tiles_133
+  - first:
+      213: 21300268
+    second: game-tiles_134
+  - first:
+      213: 21300270
+    second: game-tiles_135
+  - first:
+      213: 21300272
+    second: game-tiles_136
+  - first:
+      213: 21300274
+    second: game-tiles_137
+  - first:
+      213: 21300276
+    second: game-tiles_138
+  - first:
+      213: 21300278
+    second: game-tiles_139
+  - first:
+      213: 21300280
+    second: game-tiles_140
+  - first:
+      213: 21300282
+    second: game-tiles_141
+  - first:
+      213: 21300284
+    second: game-tiles_142
+  - first:
+      213: 21300286
+    second: game-tiles_143
+  - first:
+      213: 21300288
+    second: game-tiles_144
+  - first:
+      213: 21300290
+    second: game-tiles_145
+  - first:
+      213: 21300292
+    second: game-tiles_146
+  - first:
+      213: 21300294
+    second: game-tiles_147
+  - first:
+      213: 21300296
+    second: game-tiles_148
+  - first:
+      213: 21300298
+    second: game-tiles_149
+  - first:
+      213: 21300300
+    second: game-tiles_150
+  - first:
+      213: 21300302
+    second: game-tiles_151
+  - first:
+      213: 21300304
+    second: game-tiles_152
+  - first:
+      213: 21300306
+    second: game-tiles_153
+  - first:
+      213: 21300308
+    second: game-tiles_154
+  - first:
+      213: 21300310
+    second: game-tiles_155
+  - first:
+      213: 21300312
+    second: game-tiles_156
+  - first:
+      213: 21300314
+    second: game-tiles_157
+  - first:
+      213: 21300316
+    second: game-tiles_158
+  - first:
+      213: 21300318
+    second: game-tiles_159
+  - first:
+      213: 21300320
+    second: game-tiles_160
+  - first:
+      213: 21300322
+    second: game-tiles_161
+  - first:
+      213: 21300324
+    second: game-tiles_162
+  - first:
+      213: 21300326
+    second: game-tiles_163
+  - first:
+      213: 21300328
+    second: game-tiles_164
+  - first:
+      213: 21300330
+    second: game-tiles_165
+  - first:
+      213: 21300332
+    second: game-tiles_166
+  - first:
+      213: 21300334
+    second: game-tiles_167
+  - first:
+      213: 21300336
+    second: game-tiles_168
+  - first:
+      213: 21300338
+    second: game-tiles_169
+  - first:
+      213: 21300340
+    second: game-tiles_170
+  - first:
+      213: 21300342
+    second: game-tiles_171
+  - first:
+      213: 21300344
+    second: game-tiles_172
+  - first:
+      213: 21300346
+    second: game-tiles_173
+  - first:
+      213: 21300348
+    second: game-tiles_174
+  - first:
+      213: 21300350
+    second: game-tiles_175
+  - first:
+      213: 21300352
+    second: game-tiles_176
+  - first:
+      213: 21300354
+    second: game-tiles_177
+  - first:
+      213: 21300356
+    second: game-tiles_178
+  - first:
+      213: 21300358
+    second: game-tiles_179
+  - first:
+      213: 21300360
+    second: game-tiles_180
+  - first:
+      213: 21300362
+    second: game-tiles_181
+  - first:
+      213: 21300364
+    second: game-tiles_182
+  - first:
+      213: 21300366
+    second: game-tiles_183
+  - first:
+      213: 21300368
+    second: game-tiles_184
+  - first:
+      213: 21300370
+    second: game-tiles_185
+  - first:
+      213: 21300372
+    second: game-tiles_186
+  - first:
+      213: 21300374
+    second: game-tiles_187
+  - first:
+      213: 21300376
+    second: game-tiles_188
+  - first:
+      213: 21300378
+    second: game-tiles_189
+  - first:
+      213: 21300380
+    second: game-tiles_190
+  - first:
+      213: 21300382
+    second: game-tiles_191
+  - first:
+      213: 21300384
+    second: game-tiles_192
+  - first:
+      213: 21300386
+    second: game-tiles_193
+  - first:
+      213: 21300388
+    second: game-tiles_194
+  - first:
+      213: 21300390
+    second: game-tiles_195
+  - first:
+      213: 21300392
+    second: game-tiles_196
+  - first:
+      213: 21300394
+    second: game-tiles_197
+  - first:
+      213: 21300396
+    second: game-tiles_198
+  - first:
+      213: 21300398
+    second: game-tiles_199
+  - first:
+      213: 21300400
+    second: game-tiles_200
+  - first:
+      213: 21300402
+    second: game-tiles_201
+  - first:
+      213: 21300404
+    second: game-tiles_202
+  - first:
+      213: 21300406
+    second: game-tiles_203
+  - first:
+      213: 21300408
+    second: game-tiles_204
+  - first:
+      213: 21300410
+    second: game-tiles_205
+  - first:
+      213: 21300412
+    second: game-tiles_206
+  - first:
+      213: 21300414
+    second: game-tiles_207
+  - first:
+      213: 21300416
+    second: game-tiles_208
+  - first:
+      213: 21300418
+    second: game-tiles_209
+  - first:
+      213: 21300420
+    second: game-tiles_210
+  - first:
+      213: 21300422
+    second: game-tiles_211
+  - first:
+      213: 21300424
+    second: game-tiles_212
+  - first:
+      213: 21300426
+    second: game-tiles_213
+  - first:
+      213: 21300428
+    second: game-tiles_214
+  - first:
+      213: 21300430
+    second: game-tiles_215
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: platform_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 496
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bc753fa48a3fe40a7897f1da588a0f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_larbour_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f304a76f8304254f9786e79521900f6
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fly_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 466
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98be335eb705a5e4c81bd35bc9d8a7ff
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fly_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 466
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a0711857033854995852101745f444
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fly_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 466
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68e02dd929058946857bdc568bcc7f0
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fly_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 466
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77316eb0480ca74a8191a79cd08de29
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mario
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 477
+        width: 94
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f13cef7982b4dd46acd106f932deed2
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 478
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b993f36ddff34489ef4e57ca31b3db
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fly_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 420
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53b8dd34739f1b46a106d92b78911f2
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: void
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 395
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35896ee8a850cfc45b0b3a93832f8dd0
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 442
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2671d6477077225469945e059d17f0e3
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpad_1
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 445
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ce3c9a2a4d2754ea01aeeb2cc62196
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f4ce0318ffd840a254519a2378646
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufo
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 307
+        width: 83
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af5e29e375f5a4e8ecb4ef7e9f927c
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_johan
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 387
+        width: 86
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847447de69e9a3041b9fdf898c76dcf2
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899abc4268de95a4d8b5e748ea026f3a
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_larbour_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5bfad7c3bc39547b4f540ab622956a
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpad_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 400
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf7125f54a864d4bb6166c31d7495ec
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpad_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 400
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09b2b987e755c64db37d2b3186bfbb9
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring_0
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 401
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f19b0dd185c144a85ada57d02b5dac
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_3_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 367
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc85be2518b3a9428dfa1c63cc28f73
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 369
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c56784390a63146b265cdd02c8e612
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5b731fcd56a554e95c15a234bfb148
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_sam
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 275
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2000e820830fe834c9f397c390ee980e
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gorrocoptero
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 257
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7859961feb8b5274390f56a3478f9206
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_boliche
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 211
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8166403817a6c45904b3900246291d
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpack
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 210
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10907142bfed990449133b5d94fd0fa0
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 171
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d9baa4b4a441543bb2aaf440660cec
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-tiles_128
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1
+        width: 320
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c9f0c9f20a4bb43ab11258805f9f9e
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_kenny
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 82
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6829beebc3293fb41a2a4f9f13da3a32
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_larbour_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911bfa5b9add6644a5a324ce0b385b8
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_fran
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159db0111b85b53478b56795b4ba75c7
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring_boots
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 286
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914330ebae25e7946b373e1b40592ede
+      internalID: 1051611093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2036fc4a36a465b4ca3e369c94eb1fab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      game-tiles_1: 1143721679
+      game-tiles_100: 21300200
+      game-tiles_101: 21300202
+      game-tiles_102: 21300204
+      game-tiles_103: 21300206
+      game-tiles_104: 21300208
+      game-tiles_105: 21300210
+      game-tiles_106: 21300212
+      game-tiles_107: 21300214
+      game-tiles_108: 21300216
+      game-tiles_109: 21300218
+      game-tiles_111: 21300222
+      game-tiles_114: 21300228
+      game-tiles_115: 21300230
+      game-tiles_116: 21300232
+      game-tiles_117: 21300234
+      game-tiles_118: 21300236
+      game-tiles_119: 21300238
+      game-tiles_12: 21300024
+      game-tiles_120: 21300240
+      game-tiles_122: 21300244
+      game-tiles_123: 21300246
+      game-tiles_124: 21300248
+      game-tiles_125: 21300250
+      game-tiles_126: 21300252
+      game-tiles_127: 21300254
+      game-tiles_128: 21300256
+      game-tiles_129: 21300258
+      game-tiles_13: 21300026
+      game-tiles_130: 21300260
+      game-tiles_131: 21300262
+      game-tiles_132: 21300264
+      game-tiles_133: 21300266
+      game-tiles_134: 21300268
+      game-tiles_135: 21300270
+      game-tiles_136: 21300272
+      game-tiles_137: 21300274
+      game-tiles_138: 21300276
+      game-tiles_139: 21300278
+      game-tiles_14: 21300028
+      game-tiles_141: 21300282
+      game-tiles_142: 21300284
+      game-tiles_143: 21300286
+      game-tiles_144: 21300288
+      game-tiles_145: 21300290
+      game-tiles_146: 21300292
+      game-tiles_147: 21300294
+      game-tiles_148: 21300296
+      game-tiles_149: 21300298
+      game-tiles_150: 21300300
+      game-tiles_151: 21300302
+      game-tiles_152: 21300304
+      game-tiles_153: 21300306
+      game-tiles_154: 21300308
+      game-tiles_155: 21300310
+      game-tiles_156: 21300312
+      game-tiles_157: 21300314
+      game-tiles_158: 21300316
+      game-tiles_159: 21300318
+      game-tiles_160: 21300320
+      game-tiles_161: 21300322
+      game-tiles_162: 21300324
+      game-tiles_163: 21300326
+      game-tiles_165: 21300330
+      game-tiles_166: 21300332
+      game-tiles_167: 21300334
+      game-tiles_168: 21300336
+      game-tiles_169: 21300338
+      game-tiles_170: 21300340
+      game-tiles_171: 21300342
+      game-tiles_172: 21300344
+      game-tiles_173: 21300346
+      game-tiles_174: 21300348
+      game-tiles_175: 21300350
+      game-tiles_176: 21300352
+      game-tiles_178: 21300356
+      game-tiles_179: 21300358
+      game-tiles_18: 21300036
+      game-tiles_180: 21300360
+      game-tiles_181: 21300362
+      game-tiles_182: 21300364
+      game-tiles_183: 21300366
+      game-tiles_184: 21300368
+      game-tiles_185: 21300370
+      game-tiles_186: 21300372
+      game-tiles_187: 21300374
+      game-tiles_188: 21300376
+      game-tiles_189: 21300378
+      game-tiles_19: 21300038
+      game-tiles_190: 21300380
+      game-tiles_191: 21300382
+      game-tiles_192: 21300384
+      game-tiles_193: 21300386
+      game-tiles_194: 21300388
+      game-tiles_195: 21300390
+      game-tiles_196: 21300392
+      game-tiles_197: 21300394
+      game-tiles_198: 21300396
+      game-tiles_199: 21300398
+      game-tiles_20: 21300040
+      game-tiles_200: 21300400
+      game-tiles_201: 21300402
+      game-tiles_202: 21300404
+      game-tiles_203: 21300406
+      game-tiles_204: 21300408
+      game-tiles_205: 21300410
+      game-tiles_206: 21300412
+      game-tiles_207: 21300414
+      game-tiles_208: 21300416
+      game-tiles_209: 21300418
+      game-tiles_21: 21300042
+      game-tiles_210: 21300420
+      game-tiles_211: 21300422
+      game-tiles_212: 21300424
+      game-tiles_213: 21300426
+      game-tiles_214: 21300428
+      game-tiles_215: 21300430
+      game-tiles_22: 21300044
+      game-tiles_23: 21300046
+      game-tiles_32: 21300064
+      game-tiles_33: 21300066
+      game-tiles_34: 21300068
+      game-tiles_35: 21300070
+      game-tiles_36: 21300072
+      game-tiles_37: 21300074
+      game-tiles_38: 21300076
+      game-tiles_39: 21300078
+      game-tiles_40: 21300080
+      game-tiles_41: 21300082
+      game-tiles_42: 21300084
+      game-tiles_43: 21300086
+      game-tiles_44: 21300088
+      game-tiles_45: 21300090
+      game-tiles_46: 21300092
+      game-tiles_48: 21300096
+      game-tiles_50: 21300100
+      game-tiles_51: 21300102
+      game-tiles_52: 21300104
+      game-tiles_53: 21300106
+      game-tiles_54: 21300108
+      game-tiles_55: 21300110
+      game-tiles_56: 21300112
+      game-tiles_57: 21300114
+      game-tiles_58: 21300116
+      game-tiles_59: 21300118
+      game-tiles_6: 21300012
+      game-tiles_60: 21300120
+      game-tiles_61: 21300122
+      game-tiles_62: 21300124
+      game-tiles_63: 21300126
+      game-tiles_64: 21300128
+      game-tiles_65: 21300130
+      game-tiles_66: 21300132
+      game-tiles_67: 21300134
+      game-tiles_68: 21300136
+      game-tiles_69: 21300138
+      game-tiles_70: 21300140
+      game-tiles_71: 21300142
+      game-tiles_72: 21300144
+      game-tiles_73: 21300146
+      game-tiles_74: 21300148
+      game-tiles_75: 21300150
+      game-tiles_76: 21300152
+      game-tiles_77: 21300154
+      game-tiles_78: 21300156
+      game-tiles_80: 21300160
+      game-tiles_81: 21300162
+      game-tiles_83: 21300166
+      game-tiles_84: 21300168
+      game-tiles_85: 21300170
+      game-tiles_86: 21300172
+      game-tiles_87: 21300174
+      game-tiles_88: 21300176
+      game-tiles_89: 21300178
+      game-tiles_9: 21300018
+      game-tiles_90: 21300180
+      game-tiles_91: 21300182
+      game-tiles_92: 21300184
+      game-tiles_93: 21300186
+      game-tiles_94: 21300188
+      game-tiles_95: 21300190
+      game-tiles_96: 21300192
+      game-tiles_97: 21300194
+      game-tiles_98: 21300196
+      game-tiles_99: 21300198
+      gorrocoptero: 21300220
+      jetpack: 21300226
+      jumpad_0: 21300058
+      jumpad_1: 21300032
+      jumpad_2: 21300056
+      monster_boliche: 21300224
+      monster_fly_0: 21300004
+      monster_fly_1: 21300006
+      monster_fly_2: 21300008
+      monster_fly_3: 21300010
+      monster_fly_4: 21300020
+      monster_fra: 21300158
+      monster_fran: 21300354
+      monster_johan: 21300050
+      monster_kenny: 21300280
+      monster_larbour_0: 21300328
+      monster_larbour_1: 21300002
+      monster_larbour_2: 21300054
+      monster_mario: 21300014
+      monster_sam: 21300164
+      platform_0: 21300000
+      platform_1: 21300016
+      platform_2: 21300030
+      platform_3_0: 21300034
+      platform_3_1: 21300052
+      platform_3_2: 21300062
+      platform_3_3: 21300098
+      shield: 21300242
+      spring_0: 21300060
+      spring_1: 21300094
+      spring_boots: 1051611093
+      ufo: 21300048
+      void: 21300022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
