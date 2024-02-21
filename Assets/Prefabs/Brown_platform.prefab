@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7653685351574598910}
   - component: {fileID: 7653685351574598909}
-  - component: {fileID: 7653685351574598906}
-  - component: {fileID: 6863961918076565528}
-  - component: {fileID: 7161005845201648150}
   - component: {fileID: 6478569046566834100}
+  - component: {fileID: 8811374023878487702}
+  - component: {fileID: 8878287678295523880}
   m_Layer: 0
   m_Name: Brown_platform
   m_TagString: Untagged
@@ -88,7 +87,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7653685351574598906
+--- !u!95 &6478569046566834100
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653685351574598905}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdacdf107cceafb44bf8162f4a02b469, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8811374023878487702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,11 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7653685351574598905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39a01e3c6cfefa649bdda39c73b1bafa, type: 3}
+  m_Script: {fileID: 11500000, guid: 4640a8274b2e5f744a6c030d1c42b307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &6863961918076565528
-BoxCollider2D:
+--- !u!60 &8878287678295523880
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -129,10 +149,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00024032593, y: -0.0019280873}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -142,46 +162,17 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5807624, y: 0.13639581}
-  m_EdgeRadius: 0
---- !u!251 &7161005845201648150
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7653685351574598905}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
---- !u!95 &6478569046566834100
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7653685351574598905}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bdacdf107cceafb44bf8162f4a02b469, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.25, y: 0.074999996}
+      - {x: -0.29999998, y: 0.024999999}
+      - {x: -0.29999998, y: -0.055}
+      - {x: -0.28, y: -0.074999996}
+      - {x: 0.29999998, y: -0.074999996}
+      - {x: 0.29999998, y: 0.074999996}
+    - - {x: -0.25541586, y: 0.0026863804}
+      - {x: 0.23848778, y: 0.023739763}
+      - {x: 0.25399762, y: 0.00400918}
+      - {x: 0.19926442, y: 0.4983295}
+      - {x: 0.0017444808, y: 2.2819748}
+  m_UseDelaunayMesh: 0
