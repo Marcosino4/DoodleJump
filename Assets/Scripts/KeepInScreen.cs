@@ -9,13 +9,13 @@ public class KeepInScreen : MonoBehaviour
 
     void Start()
     {
-        camera = Camera.main;    
+        camera = Camera.main;
     }
 
     void Update()
     {
         Vector3 viewportPosition = camera.WorldToViewportPoint(transform.position);
-        
+
         if(viewportPosition.x > 1) {
             transform.position = camera.ViewportToWorldPoint(
                 new Vector3(pushValue, viewportPosition.y, viewportPosition.z));

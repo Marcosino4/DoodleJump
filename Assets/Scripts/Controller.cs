@@ -1,30 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-
-    private Rigidbody2D rb2d;
+    public static Controller playerInstance;
+    private Rigidbody2D _rb;
     private float moveInput;
     private float speed = 10f;
 
     private bool isStarted = false;
-
     private float topScore = 0.0f;
 
+    public bool isDead = false;
     public Text scoreText;
     public Text startText;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        if (!playerInstance)
+        {
+            playerInstance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Start()
     {
 
-        rb2d = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<Rigidbody2D>();
 
-        rb2d.gravityScale = 0;
-        rb2d.velocity = Vector3.zero;
+        _rb.gravityScale = 0;
+        _rb.velocity = Vector3.zero;
 
     }
 
@@ -36,7 +45,7 @@ public class Controller : MonoBehaviour
 
             isStarted = true;
             startText.gameObject.SetActive(false);
-            rb2d.gravityScale = 5f;
+            _rb.gravityScale = 5f;
 
         }
 
@@ -56,7 +65,7 @@ public class Controller : MonoBehaviour
 
             }
 
-            if (rb2d.velocity.y > 0 && transform.position.y > topScore)
+            if (_rb.velocity.y > 0 && transform.position.y > topScore)
             {
 
                 topScore = transform.position.y;
@@ -75,8 +84,18 @@ public class Controller : MonoBehaviour
         {
 
             moveInput = Input.GetAxis("Horizontal");
-            rb2d.velocity = new Vector2(moveInput * speed, rb2d.velocity.y);
+            _rb.velocity = new Vector2(moveInput * speed, _rb.velocity.y);
 
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag == "MenuPlatform")
+        {
+            _rb.velocity = Vector3.up * 600f;
         }
 
     }
