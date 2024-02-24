@@ -72,7 +72,7 @@ public class Controller : MonoBehaviour
 
             }
 
-            scoreText.text = "Score: " + Mathf.Round(topScore).ToString();
+            scoreText.text = Mathf.Round(topScore).ToString();
         }
 
     }

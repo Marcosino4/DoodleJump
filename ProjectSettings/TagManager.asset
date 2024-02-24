@@ -8,6 +8,8 @@ TagManager:
   - Platform
   - Monster
   - MenuPlatform
+  - MonsterDeath
+  - PlayerDeath
   layers:
   - Default
   - TransparentFX

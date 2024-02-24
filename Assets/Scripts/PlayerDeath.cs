@@ -6,16 +6,25 @@ using UnityEngine;
 public class PlayerDeath : MonoBehaviour
 {
     public GameObject destroyer;
+    public GameObject player;
 
+    void Start()
+    {
+        gameObject.SetActive(true);
+    }
     void Update()
     {
-        this.transform.position = new Vector2(transform.position.x, destroyer.transform.position.y);
+        if (player.gameObject.GetComponent<Rigidbody2D>().velocity.y > 0f)
+        {
+            this.transform.position = new Vector2(transform.position.x, destroyer.transform.position.y - 150f);
+        }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collider.gameObject.tag == "Player")
         {
+            collider.gameObject.SetActive(false);
             Controller.playerInstance.isDead = true;
         }
     }
