@@ -6,7 +6,7 @@ public class PlatformBehaviour : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        // Si el player no está muerto se le añade una fuerza hacia arriba
         if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y <= 0 && !Controller.playerInstance.isDead)
         {
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.up * 600f);

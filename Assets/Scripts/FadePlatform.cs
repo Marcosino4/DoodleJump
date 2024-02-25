@@ -6,6 +6,9 @@ public class FadePlatform : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        this.gameObject.SetActive(false);
+        if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y <= 0 && !Controller.playerInstance.isDead)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 }
