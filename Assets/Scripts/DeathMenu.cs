@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DeathMenu : MonoBehaviour
 {
-    public GameObject gameOver;
+    public GameObject deathMenu;
     private void OnEnable()
     {
         Controller.onPlayerDeath += DisplayGameOverMenu;
@@ -16,6 +16,6 @@ public class DeathMenu : MonoBehaviour
     }
     public void DisplayGameOverMenu()
     {
-        gameOver.gameObject.SetActive(true);
+        deathMenu.gameObject.SetActive(true);
     }
 }

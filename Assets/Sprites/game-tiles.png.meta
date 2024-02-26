@@ -1489,6 +1489,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: empty
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 436
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93377ed3471cf0468ddb5f8cf518441
+      internalID: -2020021849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1500,6 +1521,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      empty: -2020021849
       game-tiles_1: 1143721679
       game-tiles_100: 21300200
       game-tiles_101: 21300202

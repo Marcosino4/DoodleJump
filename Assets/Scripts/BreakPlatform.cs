@@ -4,17 +4,27 @@ using UnityEngine;
 
 public class BreakPlatform : MonoBehaviour
 {
-    GameObject GameObject;
+    private Camera camera;
     private Animator _animator;
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        camera = Camera.main;
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))
         {
             this.StartCoroutine(this.Break());
+        }
+    }
+    void FixedUpdate()
+    {
+        Vector3 viewportPosition = camera.WorldToViewportPoint(transform.position);
+
+        if (viewportPosition.y < -1.005)
+        {
+            gameObject.SetActive(false);
         }
     }
     private IEnumerator Break()

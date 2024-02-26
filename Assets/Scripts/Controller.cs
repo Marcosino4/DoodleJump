@@ -28,9 +28,10 @@ public class Controller : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _rb.gravityScale = 5f;
         _rb.velocity = Vector3.zero;
+        isDead = false;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Gira el sprite del jugador dependiendo de la dirección en la que se mueve
         if (moveInput < 0)
@@ -50,13 +51,7 @@ public class Controller : MonoBehaviour
         if (isDead)
         {
             onPlayerDeath?.Invoke();
-            isDead = false;
         }
-    }
-
-
-    void FixedUpdate()
-    {
         // Velocidad del jugador y movimiento
         moveInput = Input.GetAxis("Horizontal");
         _rb.velocity = new Vector2(moveInput * speed, _rb.velocity.y);
