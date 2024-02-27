@@ -1385,7 +1385,8 @@ AudioSource:
   m_GameObject: {fileID: 584720857}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d5e92f09b2eb34a4fa1ac8f04b5728bb,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 0772440bde08286428aa64caed5356df, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.16
@@ -1485,7 +1486,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &591820239
 PrefabInstance:
@@ -1708,7 +1709,7 @@ GameObject:
   - component: {fileID: 723486153}
   - component: {fileID: 723486152}
   m_Layer: 0
-  m_Name: Musiquele
+  m_Name: soundEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1727,7 +1728,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 723486153}
-  bgMusic: {fileID: 8300000, guid: 0772440bde08286428aa64caed5356df, type: 3}
   jump: {fileID: 8300000, guid: 156964bc4c662bc4ca47fdef86e7eb77, type: 3}
 --- !u!82 &723486153
 AudioSource:
@@ -1738,7 +1738,8 @@ AudioSource:
   m_GameObject: {fileID: 723486151}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d5e92f09b2eb34a4fa1ac8f04b5728bb,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.3
@@ -1838,7 +1839,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &755788640
 GameObject:
@@ -4200,6 +4201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93add54e031c574fab236ce572bbc28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  am: {fileID: 24100000, guid: d5e92f09b2eb34a4fa1ac8f04b5728bb, type: 2}
 --- !u!4 &1894037817
 Transform:
   m_ObjectHideFlags: 0

@@ -7,7 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    
     public static GameManager instance;
+    public AudioMixer am;
+    public float audio;
     private void Start()
     {
         Time.timeScale = 1f;
@@ -53,6 +56,13 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-                
+    public void setVolume(float volume)
+    {
+        am.SetFloat("Volume", volume);
+        
+
+    }
+
+
 
 }
