@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    
     public static GameManager instance;
+    public AudioMixer am;
+    public float audio;
     private void Start()
     {
         Time.timeScale = 1f;
@@ -27,6 +31,7 @@ public class GameManager : MonoBehaviour
     }
     public void ResumeGame()
     {
+        CanvasManager.instance.getPause().SetActive(false);
         Time.timeScale = 1f;
 
     }
@@ -50,5 +55,14 @@ public class GameManager : MonoBehaviour
         Debug.Log("Quitted");
         Application.Quit();
     }
+
+    public void setVolume(float volume)
+    {
+        am.SetFloat("Volume", volume);
+        
+
+    }
+
+
 
 }

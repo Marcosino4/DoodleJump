@@ -1,5 +1,7 @@
 ﻿using System;
-using Unity.VisualScripting;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,7 +27,6 @@ public class Controller : MonoBehaviour
         if (!playerInstance)
         {
             playerInstance = this;
-            DontDestroyOnLoad(gameObject);
         }
     }
 
@@ -51,12 +52,26 @@ public class Controller : MonoBehaviour
         {
             topScore = transform.position.y;
         }
-
         scoreText.text = Mathf.Round(topScore).ToString();
+
+#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 
         // Velocidad del jugador y movimiento
         moveInput = Input.GetAxis("Horizontal");
         _rb.velocity = new Vector2(moveInput * speed, _rb.velocity.y);
+
+#elif UNITY_ANDROID
+
+        // Gira el sprite del jugador dependiendo de la dirección en la que se mueve
+        moveInput = Input.acceleration.x;
+        if (moveInput < 0)
+            transform.position -= transform.right * speed * Time.deltaTime;
+        if (moveInput > 0)
+            transform.position += transform.right * speed * Time.deltaTime;
+
+#endif
+
+
 
         if (transform.position.y < actualposY - 20)
         {
@@ -77,5 +92,11 @@ public class Controller : MonoBehaviour
             _rb.velocity = new Vector2(moveInput * speed, jetpackSpeed);
         }
     }
+
+    public String getScore()
+    {
+        return Mathf.Round(topScore).ToString();
+    }
+
 }
 

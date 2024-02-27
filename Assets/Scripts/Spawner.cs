@@ -18,7 +18,7 @@ public class Spawner : MonoBehaviour
         if (transform.position.y >= actualPos.y + 3.5f)
         {
             actualPos.y = transform.position.y;
-            SpawnPlatform(Random.Range(1, 2));
+            SpawnPlatform(Random.Range(1, 3));
         }
     }
 
@@ -45,7 +45,7 @@ public class Spawner : MonoBehaviour
             // Spawnea un monstruo de forma aleatoria
             else if (Random.Range(0, 60) == 0)
             {
-                GameObjectPool rPool = pools[Random.Range(6, pools.Length)];
+                GameObjectPool rPool = pools[Random.Range(6, 13)];
                 GameObject platform = rPool.GetInactiveGameObject();
 
                 if (platform)
@@ -58,6 +58,19 @@ public class Spawner : MonoBehaviour
             else
             {
                 GameObjectPool rPool = pools[0];
+                GameObject platform = rPool.GetInactiveGameObject();
+
+                if (platform)
+                {
+                    platform.gameObject.SetActive(true);
+                    platform.transform.position = new Vector2(Random.Range(-4.2f, 4.2f), this.transform.position.y + positionY);
+                }
+            }
+
+            // Spawnea un PowerUp de forma aleatoria
+            if (Random.Range(0, 50) == 0)
+            {
+                GameObjectPool rPool = pools[Random.Range(14, pools.Length)];
                 GameObject platform = rPool.GetInactiveGameObject();
 
                 if (platform)
