@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.TextCore.Text;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public List<Personaje> personajes;
+
 
     private void Start()
     {
@@ -19,7 +22,25 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
+
+    public Personaje GetRadomCharacter()
+    {
+        if (personajes.Count == 0)
+        {
+            Debug.LogError("No hay personajes en la lista.");
+            return null;
+        }
+
+        int randomIndex = Random.Range(0, personajes.Count);
+            
+        return personajes[randomIndex];
+    }
+
 
     public void PauseGame()
     {
@@ -51,4 +72,10 @@ public class GameManager : MonoBehaviour
         Debug.Log("Quitted");
         Application.Quit();
     }
+
+    public void LootBox()
+    {
+        SceneManager.LoadScene(2);
+    }
+
 }
