@@ -50,6 +50,8 @@ public class Controller : MonoBehaviour
         // Velocidad del jugador y movimiento
         moveInput = Input.GetAxis("Horizontal");
         _rb.velocity = new Vector2(moveInput * speed, _rb.velocity.y);
+        
+
 
         if (transform.position.y < actualposY - 20)
         {
