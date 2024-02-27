@@ -61,5 +61,12 @@ public class Controller : MonoBehaviour
             actualposY = (int)transform.position.y;
         }
     }
+
+    public String getScore()
+    {
+        return Mathf.Round(topScore).ToString();
+    }
+
+  
 }
 

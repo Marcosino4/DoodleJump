@@ -10,6 +10,8 @@ TagManager:
   - MenuPlatform
   - MonsterDeath
   - PlayerDeath
+  - Bullet
+  - ShieldPowerUp
   layers:
   - Default
   - TransparentFX
