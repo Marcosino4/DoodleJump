@@ -25,5 +25,11 @@ public class KeepInScreen : MonoBehaviour
             transform.position = camera.ViewportToWorldPoint(
                 new Vector3(1 - pushValue, viewportPosition.y, viewportPosition.z));
         }
+
+        if (viewportPosition.y < 0)
+        {
+            CanvasManager.instance.DeathMenu();
+        }
     }
 }
+

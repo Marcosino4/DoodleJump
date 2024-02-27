@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Propeller : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        
+        if (collider.gameObject.tag == "Player")
+        {
+            Controller.playerInstance.propeller.SetActive(true);
+            PlayerPropeller.instance.anim.SetBool("Propeller", true);
+            Controller.playerInstance.godMode = true;
+            Controller.playerInstance.propellerActive = true;
+            Invoke("DeactivatePropeller", 3);
+            gameObject.SetActive(false);
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void DeactivatePropeller()
     {
-        
+        Controller.playerInstance.propeller.SetActive(false);
+        Controller.playerInstance.godMode = false;
+        Controller.playerInstance.propellerActive = false;
+        PlayerPropeller.instance.anim.SetBool("Propeller", false);
     }
 }

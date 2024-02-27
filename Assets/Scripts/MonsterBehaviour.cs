@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class MonsterBehaviour : MonoBehaviour
@@ -14,7 +15,7 @@ public class MonsterBehaviour : MonoBehaviour
     {
         Vector3 viewportPosition = camera.WorldToViewportPoint(transform.position);
 
-        if (viewportPosition.y < -1.005)
+        if (viewportPosition.y < -0.5)
         {
             gameObject.SetActive(false);
         }
@@ -26,6 +27,11 @@ public class MonsterBehaviour : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
             CanvasManager.instance.DeathMenu();
+        }
+        else if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.up * 550);
+            gameObject.SetActive(false);
         }
     }
     private void OnTriggerEnter2D(Collider2D collider)

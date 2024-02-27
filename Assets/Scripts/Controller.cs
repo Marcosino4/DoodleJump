@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,8 +7,12 @@ public class Controller : MonoBehaviour
 {
     public Text scoreText;
     public static Controller playerInstance;
-    public GameObject deathMenu;
     public bool godMode;
+    public GameObject shield;
+    public GameObject propeller;
+    public GameObject jetpack;
+    public bool propellerActive;
+    public bool jetpackActive;
 
     private int actualposY;
     private Rigidbody2D _rb;
@@ -36,9 +41,10 @@ public class Controller : MonoBehaviour
     {
         // Gira el sprite del jugador dependiendo de la dirección en la que se mueve
         if (moveInput < 0)
-            GetComponent<SpriteRenderer>().flipX = false;
+            transform.rotation = new Quaternion(transform.rotation.x, 0, transform.rotation.z, 0);
+
         else
-            GetComponent<SpriteRenderer>().flipX = true;
+            transform.rotation = new Quaternion(transform.rotation.x, -180, transform.rotation.z, 0);
 
         // Actualiza el topScore si la posición en Y del jugador es mayor que el topScore
         if (_rb.velocity.y > 0 && transform.position.y > topScore)
@@ -59,6 +65,16 @@ public class Controller : MonoBehaviour
         else
         {
             actualposY = (int)transform.position.y;
+        }
+
+        if(propellerActive)
+        {
+            float propellerSpeed = 15f;
+            _rb.velocity = new Vector2(moveInput * speed, propellerSpeed);
+        }else if (jetpackActive)
+        {
+            float jetpackSpeed = 25f;
+            _rb.velocity = new Vector2(moveInput * speed, jetpackSpeed);
         }
     }
 }

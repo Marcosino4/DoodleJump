@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6863961918076565528}
   - component: {fileID: 7161005845201648150}
   - component: {fileID: 3560032857508579840}
+  - component: {fileID: 8204683507787946800}
   m_Layer: 0
   m_Name: Blue_platform
   m_TagString: Platform
@@ -161,5 +162,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b21516839dc0304458b14727d6387261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8204683507787946800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653685351574598905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685f8a69291be8544b872f9c31dec871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

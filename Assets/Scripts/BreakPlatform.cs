@@ -22,7 +22,7 @@ public class BreakPlatform : MonoBehaviour
     {
         Vector3 viewportPosition = camera.WorldToViewportPoint(transform.position);
 
-        if (viewportPosition.y < -1.005)
+        if (viewportPosition.y < -0.5)
         {
             gameObject.SetActive(false);
         }

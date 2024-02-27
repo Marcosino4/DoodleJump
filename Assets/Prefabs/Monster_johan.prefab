@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1958324696181953721}
   - component: {fileID: 5495304162822438303}
   - component: {fileID: 5963167797688771171}
+  - component: {fileID: 8059081863718308397}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Monster
@@ -143,8 +144,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a34f839754e7bd46a33c32abec847ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathMenu: {fileID: 8250282587219022521, guid: e44215c26cc20e943b563702e245aa63,
-    type: 3}
+--- !u!114 &8059081863718308397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671167573377283757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685f8a69291be8544b872f9c31dec871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 4
 --- !u!1 &7098806061847923286
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +203,7 @@ GameObject:
   - component: {fileID: 5843434130364869297}
   - component: {fileID: 655847039824842543}
   - component: {fileID: 8802915706998398948}
+  - component: {fileID: 6231740478655319806}
   m_Layer: 0
   m_Name: MonsterDeath
   m_TagString: Untagged
@@ -271,6 +284,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monster: {fileID: 2671167573377283757}
+--- !u!114 &6231740478655319806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8829726074717087643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685f8a69291be8544b872f9c31dec871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 4
 --- !u!1001 &6465172629916309721
 PrefabInstance:
   m_ObjectHideFlags: 0

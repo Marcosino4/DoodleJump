@@ -5,37 +5,23 @@ using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
-    public Animator anim;
-    private bool shieldActive;
-
-    void Update()
-    {
-        if (shieldActive)
-        {
-            transform.position = GameObject.Find("Player").transform.position;
-            Controller.playerInstance.godMode = true;
-        }
-
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("ShieldOff"))
-        {
-            shieldActive = false;
-            Controller.playerInstance.godMode = false;
-        }
-    }
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Player")
         {
-            anim.SetBool("Activate", true);
-            shieldActive = true;
+            Controller.playerInstance.shield.SetActive(true);
+            PlayerShield.instance.anim.SetBool("Shield", true);
+            Controller.playerInstance.godMode = true;
             Invoke("DeactivateShield", 7.15f);
+            gameObject.SetActive(false);
+
         }
     }
 
     void DeactivateShield()
     {
-        anim.SetBool("Activate", false);
-        shieldActive = false;
-        gameObject.SetActive(false);
+        Controller.playerInstance.shield.SetActive(false);
+        Controller.playerInstance.godMode = false;
+        PlayerShield.instance.anim.SetBool("Shield", false);
     }
 }
