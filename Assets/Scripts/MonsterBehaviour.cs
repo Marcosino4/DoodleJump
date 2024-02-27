@@ -5,7 +5,7 @@ using UnityEngine;
 public class MonsterBehaviour : MonoBehaviour
 {
     private Camera camera;
-
+    public GameObject deathMenu;
     void Start()
     {
         camera = Camera.main;
@@ -23,10 +23,10 @@ public class MonsterBehaviour : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Si el objeto que colisiona con el trigger tiene el tag "Player", se muere el jugador
-        if (collision.gameObject.tag == "Player" && !Controller.playerInstance.isDead)
+        if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.SetActive(false);
-            Controller.playerInstance.isDead = true;
+            CanvasManager.instance.DeathMenu();
         }
     }
 }

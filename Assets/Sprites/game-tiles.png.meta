@@ -986,27 +986,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 395
-        width: 73
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35896ee8a850cfc45b0b3a93832f8dd0
-      internalID: 21300022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: platform_2
       rect:
         serializedVersion: 2
@@ -1065,27 +1044,6 @@ TextureImporter:
       bones: []
       spriteID: c94f4ce0318ffd840a254519a2378646
       internalID: 21300034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ufo
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 307
-        width: 83
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6af5e29e375f5a4e8ecb4ef7e9f927c
-      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -1301,27 +1259,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gorrocoptero
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 257
-        width: 32
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7859961feb8b5274390f56a3478f9206
-      internalID: 21300220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: monster_boliche
       rect:
         serializedVersion: 2
@@ -1338,48 +1275,6 @@ TextureImporter:
       bones: []
       spriteID: bf8166403817a6c45904b3900246291d
       internalID: 21300224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jetpack
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 210
-        width: 25
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10907142bfed990449133b5d94fd0fa0
-      internalID: 21300226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 171
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6d9baa4b4a441543bb2aaf440660cec
-      internalID: 21300242
       vertices: []
       indices: 
       edges: []
@@ -1469,27 +1364,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spring_boots
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 286
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 914330ebae25e7946b373e1b40592ede
-      internalID: 1051611093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: empty
       rect:
         serializedVersion: 2
@@ -1498,7 +1372,7 @@ TextureImporter:
         width: 11
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1506,6 +1380,48 @@ TextureImporter:
       bones: []
       spriteID: e93377ed3471cf0468ddb5f8cf518441
       internalID: -2020021849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpack
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 211
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b76786744b0b4dad5da2fa169029c
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 172
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fecc714805ec843883630932e24d16
+      internalID: 21300242
       vertices: []
       indices: 
       edges: []

@@ -12,7 +12,7 @@ public class Spring : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (!Controller.playerInstance.isDead && collider.CompareTag("Player"))
+        if (collider.CompareTag("Player"))
         {
             // Si el jugador colisiona con el trigger, se le añade una fuerza hacia arriba y se activa la animación de salto
             anim.SetBool("Jump", true);

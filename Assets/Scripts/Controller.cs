@@ -4,14 +4,15 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-    public static Controller playerInstance;
-    private Rigidbody2D _rb;
-    public static event Action onPlayerDeath;
-    public bool isDead = false;
-    private float moveInput;
     public Text scoreText;
-    private float speed = 10f;
+    public static Controller playerInstance;
+    public GameObject deathMenu;
+    public bool godMode;
 
+    private int actualposY;
+    private Rigidbody2D _rb;
+    private float moveInput;
+    private float speed = 10f;
     private float topScore;
 
     private void Awake()
@@ -28,7 +29,7 @@ public class Controller : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _rb.gravityScale = 5f;
         _rb.velocity = Vector3.zero;
-        isDead = false;
+        godMode = false;
     }
 
     private void FixedUpdate()
@@ -47,14 +48,18 @@ public class Controller : MonoBehaviour
 
         scoreText.text = Mathf.Round(topScore).ToString();
 
-        // Si el jugador está muerto, se activa el evento de muerte
-        if (isDead)
-        {
-            onPlayerDeath?.Invoke();
-        }
         // Velocidad del jugador y movimiento
         moveInput = Input.GetAxis("Horizontal");
         _rb.velocity = new Vector2(moveInput * speed, _rb.velocity.y);
+
+        if (transform.position.y < actualposY - 20)
+        {
+            Instantiate(deathMenu);
+        }
+        else
+        {
+            actualposY = (int)transform.position.y;
+        }
     }
 }
 
