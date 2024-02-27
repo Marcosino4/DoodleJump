@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 446906795732668162}
   m_Layer: 0
   m_Name: soccer-right-odskok@2x
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

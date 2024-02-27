@@ -4,11 +4,17 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public List<Personaje> personajes;
+
+    //Monedas
+    public int coins = 0;
+    public Text coinsText;
+    public int coinsNeededForBox = 50;
 
 
     private void Start()
@@ -41,6 +47,23 @@ public class GameManager : MonoBehaviour
         return personajes[randomIndex];
     }
 
+    //Monedas
+    public void AddCoins(int amount)
+    {
+        coins += amount;
+        UpdateCoinsUI();
+    }
+
+    void UpdateCoinsUI()
+    {
+        coinsText.text = "Coins: " + coins.ToString();
+    }
+
+    public bool CanOpenBox()
+    {
+        return coins >= coinsNeededForBox;
+    }
+    //Fin Monedas
 
     public void PauseGame()
     {
