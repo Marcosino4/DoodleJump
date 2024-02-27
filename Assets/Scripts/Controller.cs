@@ -54,7 +54,7 @@ public class Controller : MonoBehaviour
 
         if (transform.position.y < actualposY - 20)
         {
-            Instantiate(deathMenu);
+            CanvasManager.instance.DeathMenu();
         }
         else
         {

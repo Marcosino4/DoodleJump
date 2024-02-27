@@ -8,7 +8,7 @@ public class Shield : MonoBehaviour
     public Animator anim;
     private bool shieldActive;
 
-    void FixedUpdate()
+    void Update()
     {
         if (shieldActive)
         {
@@ -28,7 +28,14 @@ public class Shield : MonoBehaviour
         {
             anim.SetBool("Activate", true);
             shieldActive = true;
-
+            Invoke("DeactivateShield", 7.15f);
         }
+    }
+
+    void DeactivateShield()
+    {
+        anim.SetBool("Activate", false);
+        shieldActive = false;
+        gameObject.SetActive(false);
     }
 }
