@@ -20,7 +20,6 @@ public class Controller : MonoBehaviour
         if (!playerInstance)
         {
             playerInstance = this;
-            DontDestroyOnLoad(gameObject);
         }
     }
 

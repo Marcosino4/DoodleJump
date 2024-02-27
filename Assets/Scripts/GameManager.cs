@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     }
     public void ResumeGame()
     {
+        CanvasManager.instance.getPause().SetActive(false);
         Time.timeScale = 1f;
 
     }
