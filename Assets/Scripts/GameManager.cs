@@ -45,6 +45,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void CharactersMenu()
+    {
+        SceneManager.LoadScene(2);
+    }
 
     public void Restart()   //Reiniciar partida
     {
