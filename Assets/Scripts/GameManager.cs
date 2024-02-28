@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -49,6 +50,11 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Quitted");
         Application.Quit();
+    }
+
+    public void EscenaPersonajes()
+    {
+        SceneManager.LoadScene(2);
     }
 
 }
